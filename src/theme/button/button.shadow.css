@@ -1,0 +1,14 @@
+SButton[theme='primary-info'] {
+    background-color: #222222;
+
+    &:hover {
+        background-color: #fff;
+        border: 1px solid #222222;
+        color: #000;
+    }
+
+    &:active,
+    &[active] {
+        background-color: #F9F7F5;
+    }
+}
