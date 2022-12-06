@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@semcore/button": "^4.2.5",
+    "@semcore/core": "^1.13.6",
+    "@semcore/flex-box": "^4.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
