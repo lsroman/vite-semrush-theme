@@ -1,0 +1,16 @@
+/* @import '~@semcore/ui/utils/style/var.css'; */
+
+SButton[theme='primary-info'] {
+    background-color: #222222;
+
+    &:hover {
+        background-color: var(--white);
+        border: 1px solid #222222;
+        color: var(--black);
+    }
+
+    &:active,
+    &[active] {
+        background-color: #F9F7F5;
+    }
+}

@@ -16,6 +16,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@semcore/babel-plugin-styles": "^1.5.0",
+    "@types/node": "^18.11.11",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",

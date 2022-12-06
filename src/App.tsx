@@ -1,4 +1,4 @@
-import Button from "@semcore/button";
+import { Button } from "./components/button";
 import { Flex } from "@semcore/flex-box";
 
 function App() {
