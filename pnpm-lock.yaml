@@ -13,6 +13,7 @@ specifiers:
   react-dom: ^18.2.0
   typescript: ^4.6.4
   vite: ^3.2.3
+  vite-plugin-babel: ^1.1.2
 
 dependencies:
   '@semcore/button': 4.2.5_vi7l3zpexusrlxdqcyr6ta7ory
@@ -29,6 +30,7 @@ devDependencies:
   '@vitejs/plugin-react': 2.2.0_vite@3.2.5
   typescript: 4.9.3
   vite: 3.2.5_@types+node@18.11.11
+  vite-plugin-babel: 1.1.2_vite@3.2.5
 
 packages:
 
@@ -3574,6 +3576,15 @@ packages:
       assert-plus: 1.0.0
       core-util-is: 1.0.2
       extsprintf: 1.3.0
+    dev: true
+
+  /vite-plugin-babel/1.1.2_vite@3.2.5:
+    resolution: {integrity: sha512-NPqUSzxzdPo1UyZGvL1KOIYy5R1T9+Af6cZ9Qw/f7tepjp6FSmx4SbK6eZ9xttEnSsdYj3IJmXwlU8PYeZstWw==}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+      vite: ^2.7.0 || ^3.0.0
+    dependencies:
+      vite: 3.2.5_@types+node@18.11.11
     dev: true
 
   /vite/3.2.5_@types+node@18.11.11:
